@@ -1,5 +1,6 @@
 package kr.ac.kumoh.ce.s202004511.mysql_hospital
 
+import kr.ac.kumoh.ce.s202004511.mysql_hospital.dto.AppointmentDto
 import org.springframework.stereotype.Service
 
 @Service
