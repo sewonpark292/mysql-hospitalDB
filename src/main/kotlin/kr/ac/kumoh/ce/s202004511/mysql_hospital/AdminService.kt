@@ -1,5 +1,7 @@
 package kr.ac.kumoh.ce.s202004511.mysql_hospital
 
+import org.springframework.stereotype.Service
+
 @Service
 class AdminService(
     private val doctorRepo: DoctorRepository,

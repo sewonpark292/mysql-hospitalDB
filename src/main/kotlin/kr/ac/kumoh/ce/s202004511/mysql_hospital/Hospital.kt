@@ -1,3 +1,6 @@
+package kr.ac.kumoh.ce.s202004511.mysql_hospital
+
+
 import jakarta.persistence.*
 import java.time.LocalDate
 import java.time.LocalDateTime
