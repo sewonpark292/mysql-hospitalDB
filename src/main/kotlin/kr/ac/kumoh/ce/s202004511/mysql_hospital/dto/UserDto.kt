@@ -1,4 +1,4 @@
-package kr.ac.kumoh.ce.s202004511.mysql_hospital
+package kr.ac.kumoh.ce.s202004511.mysql_hospital.dto
 
 import kr.ac.kumoh.ce.s202004511.mysql_hospital.Gender
 import kr.ac.kumoh.ce.s202004511.mysql_hospital.Role

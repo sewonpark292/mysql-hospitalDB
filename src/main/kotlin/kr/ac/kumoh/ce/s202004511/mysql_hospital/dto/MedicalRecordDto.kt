@@ -1,4 +1,4 @@
-package kr.ac.kumoh.ce.s202004511.mysql_hospital
+package kr.ac.kumoh.ce.s202004511.mysql_hospital.dto
 
 import java.time.LocalDate
 import java.time.LocalDateTime
