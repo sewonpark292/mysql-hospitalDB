@@ -2,6 +2,7 @@ package kr.ac.kumoh.ce.s202004511.mysql_hospital.controller
 import kr.ac.kumoh.ce.s202004511.mysql_hospital.*
 import kr.ac.kumoh.ce.s202004511.mysql_hospital.dto.PatientVerificationLogDto
 import kr.ac.kumoh.ce.s202004511.mysql_hospital.dto.PatientVerificationLogRequest
+import kr.ac.kumoh.ce.s202004511.mysql_hospital.service.PatientVerificationLogService
 import org.springframework.web.bind.annotation.*
 
 @RestController

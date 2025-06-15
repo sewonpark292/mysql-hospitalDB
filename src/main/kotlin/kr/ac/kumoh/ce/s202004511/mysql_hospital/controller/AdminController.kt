@@ -1,5 +1,6 @@
 package kr.ac.kumoh.ce.s202004511.mysql_hospital.controller
 
+import kr.ac.kumoh.ce.s202004511.mysql_hospital.service.*
 import kr.ac.kumoh.ce.s202004511.mysql_hospital.*
 import kr.ac.kumoh.ce.s202004511.mysql_hospital.dto.DoctorDto
 import kr.ac.kumoh.ce.s202004511.mysql_hospital.dto.DoctorRequest

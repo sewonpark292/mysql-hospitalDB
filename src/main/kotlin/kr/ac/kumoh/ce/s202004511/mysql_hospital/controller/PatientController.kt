@@ -1,12 +1,14 @@
 package kr.ac.kumoh.ce.s202004511.mysql_hospital.controller
 
-import org.springframework.web.bind.annotation.RequestMapping
-import org.springframework.web.bind.annotation.RestController
+import org.springframework.web.bind.annotation.*
 import kr.ac.kumoh.ce.s202004511.mysql_hospital.*
 import kr.ac.kumoh.ce.s202004511.mysql_hospital.dto.AppointmentDto
 import kr.ac.kumoh.ce.s202004511.mysql_hospital.dto.AppointmentRequest
 import kr.ac.kumoh.ce.s202004511.mysql_hospital.dto.MedicalRecordDto
 import kr.ac.kumoh.ce.s202004511.mysql_hospital.dto.PatientDto
+import kr.ac.kumoh.ce.s202004511.mysql_hospital.service.AppointmentService
+import kr.ac.kumoh.ce.s202004511.mysql_hospital.service.MedicalRecordService
+import kr.ac.kumoh.ce.s202004511.mysql_hospital.service.PatientService
 
 @RestController
 @RequestMapping("/api/patients")

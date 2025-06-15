@@ -3,6 +3,7 @@ package kr.ac.kumoh.ce.s202004511.mysql_hospital.controller
 import kr.ac.kumoh.ce.s202004511.mysql_hospital.*
 import kr.ac.kumoh.ce.s202004511.mysql_hospital.dto.MedicalRecordDto
 import kr.ac.kumoh.ce.s202004511.mysql_hospital.dto.MedicalRecordRequest
+import kr.ac.kumoh.ce.s202004511.mysql_hospital.service.MedicalRecordService
 import org.springframework.web.bind.annotation.*
 
 @RestController

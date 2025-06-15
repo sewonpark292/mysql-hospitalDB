@@ -75,7 +75,7 @@ data class MedicalRecord(
     val description: String?,
     val treatment: String?,
     val recordType: String?,
-    val lastUpdated: LocalDateTime = LocalDateTime.now()
+    val lastUpdated: LocalDateTime? = LocalDateTime.now()
 )
 
 @Entity
@@ -91,7 +91,7 @@ data class Appointment(
     val appointmentDate: LocalDate?,
     @Enumerated(EnumType.STRING)
     val status: AppointmentStatus = AppointmentStatus.scheduled,
-    val createdAt: LocalDateTime = LocalDateTime.now()
+    val createdAt: LocalDateTime? = LocalDateTime.now()
 )
 
 enum class AppointmentStatus { scheduled, cancelled, completed }

@@ -5,6 +5,8 @@ import kr.ac.kumoh.ce.s202004511.mysql_hospital.*
 import kr.ac.kumoh.ce.s202004511.mysql_hospital.dto.MedicalRecordDto
 import kr.ac.kumoh.ce.s202004511.mysql_hospital.dto.MedicalRecordRequest
 import kr.ac.kumoh.ce.s202004511.mysql_hospital.dto.PatientDto
+import kr.ac.kumoh.ce.s202004511.mysql_hospital.service.DoctorService
+import kr.ac.kumoh.ce.s202004511.mysql_hospital.service.MedicalRecordService
 
 @RestController
 @RequestMapping("/api/doctors")
@@ -33,12 +35,4 @@ class DoctorController(
         @RequestBody request: MedicalRecordRequest
     ): MedicalRecordDto =
         medicalRecordService.addRecordByDoctor(doctorId, patientId, request)
-
-    // 의료기록 삭제
-    @DeleteMapping("/{doctorId}/patients/{patientId}/medical-records/{recordId}")
-    fun deleteMedicalRecord(
-        @PathVariable doctorId: Int,
-        @PathVariable patientId: Int,
-        @PathVariable recordId: Int
-    ) = medicalRecordService.deleteRecordByDoctor(doctorId, patientId, recordId)
 }
